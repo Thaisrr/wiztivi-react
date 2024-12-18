@@ -1,0 +1,15 @@
+/* style pour App.tsx
+-> doit être importé dans le composant
+ */
+
+p {
+    color: #494848;
+}
+
+.bg {
+    width: 200px;
+    aspect-ratio: 16/9;
+    background-image: url("./assets/bg.png");
+
+}
+
