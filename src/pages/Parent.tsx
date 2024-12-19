@@ -20,7 +20,7 @@ const Parent = () => {
         id: 2,
     }
 
-    const [movies, setMovies] = useState<Movie[]>([
+    const [movies] = useState<Movie[]>([
         movie,
         {
             id: 1,

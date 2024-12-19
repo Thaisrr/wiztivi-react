@@ -71,10 +71,11 @@ const Presentation = () => {
         switch (role) {
             case "USER":
                 return <p>Vous êtes un•e Gueux•se</p>
-            case "ADMIN":
+          /*  case "ADMIN":
                 return <p>Pas Mal !</p>
             case 'SUPER':
                 return <p>Vous êtes tout•e puissant•e</p>
+           */
             default:
                 return <p>Mais qui êtes vous ?</p>
         }

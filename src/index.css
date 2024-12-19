@@ -128,3 +128,9 @@ button.active {
     border-radius: 500px;
     padding: 5px 10px;
 }
+
+.green {
+    color: lawngreen;
+}
+
+.red { color: red}

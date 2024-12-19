@@ -5,6 +5,8 @@ const Navigation = () => {
         {name: 'Présentation', path: '/'},
         {name: 'Reactivité', path: '/reactivite'},
         {name: 'Props', path: '/parent'},
+        {name: 'Hooks', path: '/hooks'},
+        {name: 'Formulaires', path: '/form'},
     ]
     return (
         <nav className='Nav'>
@@ -16,6 +18,12 @@ const Navigation = () => {
                         </li>
                     ))
                 }
+                <li>
+                    <NavLink to={{
+                        pathname: '/router/12',
+                        search: 'name=JeanMichel',
+                    }} state={{message: 'Hello World'}}>Router</NavLink>
+                </li>
             </ul>
         </nav>
     )
